@@ -1,10 +1,14 @@
 # 🕰️ Digital Clock
 
-> A minimalist digital clock web application featuring a sleek LED display with day of the week indicators.
+A minimalist digital clock web application featuring a sleek LED display with day of the week indicators.
 
 ## 🖼️ Preview
 
 ![Digital Clock Preview](assets/screenshots/clock.png)
+
+## 🌐 Live Demo
+
+Try it now: [Digital Clock](https://mcarrarodev.github.io/Digital-Clock/)
 
 ## ✨ Features
 
@@ -54,5 +58,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made by MCarraroDev 🌟
+  Made by Marco Carraro 🌟
 </p>
