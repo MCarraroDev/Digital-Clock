@@ -100,3 +100,55 @@ footer a {
 footer a:hover {
     color: white;
 }
+
+/* Media Queries per dispositivi mobili */
+@media screen and (max-width: 768px) {
+    .digital-clock {
+        padding: 2vh 3vw;
+    }
+
+    .hour,
+    .min,
+    .dot {
+        font-size: 8rem;
+    }
+
+    .week {
+        width: 2rem;
+        font-size: 0.8rem;
+    }
+
+    .lang-switch {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .digital-clock {
+        padding: 1.5vh 2vw;
+    }
+
+    .hour,
+    .min,
+    .dot {
+        font-size: 6rem;
+    }
+
+    .week {
+        width: 1.5rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hour,
+    .min,
+    .dot {
+        font-size: 4rem;
+    }
+
+    .week {
+        width: 1.2rem;
+        font-size: 0.6rem;
+    }
+}
