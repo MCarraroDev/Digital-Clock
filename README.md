@@ -1,6 +1,6 @@
 # 🕰️ Digital Clock
 
-A minimalist digital clock web application featuring a sleek LED display with day of the week indicators.
+A minimalist digital clock web application featuring a sleek LED display with day of the week indicators, available in english and italian language.
 
 ## 🖼️ Preview
 
@@ -15,7 +15,7 @@ Try it now: [Digital Clock](https://mcarrarodev.github.io/Digital-Clock/)
 - ⏰ Real-time digital clock display
 - 💡 LED-style numbers
 - 📅 Day of the week indicator
-- ⚡ Blinking colon separator
+- ⚡ Blinking separator
 - 🌙 Dark theme interface
 - 📱 Responsive design
 

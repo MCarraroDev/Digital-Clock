@@ -1,60 +1,81 @@
 @font-face {
-    font-family: "FX_LED";
-    src: url(../fonts/FX-LED_Bold.TTF);
+	font-family: 'FX_LED';
+	src: url(../fonts/FX-LED_Bold.TTF);
 }
 
 @font-face {
-    font-family: "Hack";
-    src: url(../fonts/Hack-Bold.ttf);
+	font-family: 'Hack';
+	src: url(../fonts/Hack-Bold.ttf);
 }
 
 body {
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1a1a1a;
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1a1a1a;
 }
 
 .digital-clock {
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    border-radius: 2rem;
-    user-select: none;
-    padding: 3vh 4vw;
-    border: 0.5rem solid #2d2d2d;
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	border-radius: 2rem;
+	user-select: none;
+	padding: 3vh 4vw;
+	border: 0.5rem solid #2d2d2d;
 }
 
 .week {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 3rem;
-    color: #2d2d2d;
-    font-weight: bold;
-    font-family: "Hack";
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 3rem;
+	color: #2d2d2d;
+	font-weight: bold;
+	font-family: 'Hack';
 }
 
 .week .active {
-    color: white;
+	color: white;
 }
 
 .time {
-    font-family: "FX_LED";
+	font-family: 'FX_LED';
 }
 
-.hour, .min, .dot {
-    display: inline;
-    font-size: 13rem;
+.hour,
+.min,
+.dot {
+	display: inline;
+	font-size: 13rem;
 }
 
 .min {
-    display: math;
+	display: math;
 }
 
 .invisible {
-    visibility: hidden;
+	visibility: hidden;
+}
+
+.lang-switch {
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	font-family: 'Hack';
+	color: #2d2d2d;
+	font-size: 1.5rem;
+	cursor: pointer;
+	user-select: none;
+}
+
+.lang-switch span {
+	color: #2d2d2d;
+}
+
+.lang-switch span.active {
+	color: white;
 }
