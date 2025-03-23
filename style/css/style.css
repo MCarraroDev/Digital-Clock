@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "FX_LED";
+    src: url(../fonts/FX-LED_Bold.TTF);
+}
+
+@font-face {
+    font-family: "Hack";
+    src: url(../fonts/Hack-Bold.ttf);
+}
+
 .digital-clock {
     background-color: #000;
     color: #fff;
